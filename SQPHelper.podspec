@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SQPHelper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SQPHelper.'
+  s.summary          = '工具合集'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+平时用到的工具合集，不定期更新
                        DESC
 
   s.homepage         = 'https://github.com/mj230816/SQPHelper'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mj230816' => 'songqian@readchina.com.cn' }
   s.source           = { :git => 'https://github.com/mj230816/SQPHelper.git', :tag => s.version.to_s }
