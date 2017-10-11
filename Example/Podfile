@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SQPHelper_Example' do
+  pod 'SQPHelper', :path => '../'
+
+  target 'SQPHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

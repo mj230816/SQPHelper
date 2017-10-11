@@ -1,0 +1,16 @@
+PODS:
+  - SQPHelper (0.1.0)
+
+DEPENDENCIES:
+  - SQPHelper (from `../`)
+
+EXTERNAL SOURCES:
+  SQPHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SQPHelper: 5c6d577d45c4059598bd5cbc2b846b4ad7bc6d16
+
+PODFILE CHECKSUM: e0cc72d689336d5735226bfcaf30a70aa4483b90
+
+COCOAPODS: 1.3.1
