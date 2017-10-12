@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SQPHelper/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SQPHelper' => ['SQPHelper/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SQPHelper' => ['SQPHelper/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

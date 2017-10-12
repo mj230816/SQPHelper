@@ -7,6 +7,8 @@
 //
 
 #import "SQPViewController.h"
+#import <SQPHelper/Manager.h>
+
 
 @interface SQPViewController ()
 
@@ -21,6 +23,14 @@
     
     
     
+}
+- (IBAction)button:(id)sender {
+    
+    id vc = [[UIViewController alloc] initWithNibName:@"aaViewController"
+                                               bundle:[Manager bundle]];
+    [self presentViewController:vc
+                       animated:YES
+                     completion:nil];
     
 }
 

@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "aaViewController.h"
 #import "ImageFilters.h"
+#import "Manager.h"
 
 FOUNDATION_EXPORT double SQPHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char SQPHelperVersionString[];
