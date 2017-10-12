@@ -1,0 +1,6 @@
+framework module SQPHelper {
+  umbrella header "SQPHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

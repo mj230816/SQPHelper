@@ -19,10 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    id a =
-    [[[NSBundle mainBundle] loadNibNamed:@"SQPTestView"
-                                   owner:self
-                                 options:nil]firstObject];
+    
+    
     
 }
 
