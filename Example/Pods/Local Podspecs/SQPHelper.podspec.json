@@ -1,8 +1,8 @@
 {
   "name": "SQPHelper",
   "version": "0.1.0",
-  "summary": "A short description of SQPHelper.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "工具合集",
+  "description": "平时用到的工具合集，不定期更新",
   "homepage": "https://github.com/mj230816/SQPHelper",
   "license": {
     "type": "MIT",

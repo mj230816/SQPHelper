@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BFCCEC52E323A0EC666452D54C32204 /* SQPHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CE46C3869741A20C2D457FD79E4EBF /* SQPHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E932413BF96525D02A1ABC77703A11D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C508F8CD6F60163D9AC0F27F70D83468 /* ReplaceMe.m */; };
+		1E063F920284C21363EAD64DAB977B26 /* SQPTestView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0C954CF648055915B0212E0EB505EC02 /* SQPTestView.xib */; };
 		3EAB06CFDBE2EE45D023A3D4883666E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7F86CAD1200CF3D8EA8A25174E9CDFBA /* Pods-SQPHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 620DC1AE1F637484E77CE33362E01F4B /* Pods-SQPHelper_Example-dummy.m */; };
+		807522B8B696E518D721770BE0E220D1 /* SQPHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3895798267D5F071760CD26D21AF0F /* SQPHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98EE6B9E3D44AB771D3433ABBF0B9973 /* ImageFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE873AE10784A535AB3792D59619F32 /* ImageFilters.m */; };
 		A6D2B1D658D14E1D9AFE767221AA5996 /* Pods-SQPHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B97C925C27843E84D5214B1CC0FB7D06 /* Pods-SQPHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B19159BF9D12D888E8D883CE4725D506 /* Pods-SQPHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608E7E5DDC7B9E815498E8BD231C6375 /* Pods-SQPHelper_Tests-dummy.m */; };
 		CC79A2B2D00F6E0AE3F1BB9668213545 /* Pods-SQPHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20547604CBB9B2246B6B8B0BF049579E /* Pods-SQPHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2BABE5F39255169EF9110D11B6C397 /* ImageFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = A2208EAFB0BC806E9492F2952AA2A9E9 /* ImageFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAB1F7A6D515FF381944BA7538025E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7E34E8828E148E2C61701E33DE9C66B /* SQPHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDCB08AAA0A4CE347D8C1308CB557D /* SQPHelper-dummy.m */; };
 		F86225E2F3AB7AD0811C5497EFA9EEE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FE98EAF26C2C59CD0E98856B1A678049 /* SQPHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4477AA9DB633EC4D4742C664638B099 /* SQPHelper-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,38 +32,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05486A6739D751BF3E2110AE2AA95CBC /* Pods-SQPHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SQPHelper_Example.modulemap"; sourceTree = "<group>"; };
-		1761804426199FA5E8C7AB53393D973B /* Pods_SQPHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQPHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05486A6739D751BF3E2110AE2AA95CBC /* Pods-SQPHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SQPHelper_Example.modulemap"; sourceTree = "<group>"; };
+		0C954CF648055915B0212E0EB505EC02 /* SQPTestView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SQPTestView.xib; path = SQPHelper/Classes/SQPTestView.xib; sourceTree = "<group>"; };
+		1761804426199FA5E8C7AB53393D973B /* Pods_SQPHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SQPHelper_Tests.framework; path = "Pods-SQPHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1860B0C5B7165EA6A81E621B3D5A6A4B /* Pods-SQPHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQPHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20547604CBB9B2246B6B8B0BF049579E /* Pods-SQPHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQPHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		20A6DA40B5E507BBD3F347F8817EC61B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		219EDC96E09F4D867AF90E86495EC5D5 /* Pods-SQPHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SQPHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		219EDC96E09F4D867AF90E86495EC5D5 /* Pods-SQPHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SQPHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		3B5CB012AA1385E3116B5F2081F171B2 /* Pods-SQPHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQPHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		461E4E6087C3D0B0BB4B89B0B463C39F /* Pods-SQPHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQPHelper_Tests-resources.sh"; sourceTree = "<group>"; };
-		462C8758B7A77260242080405210ACF2 /* SQPHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQPHelper.modulemap; sourceTree = "<group>"; };
-		540C438EBE8066ED572E7AE85270C08D /* SQPHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQPHelper.xcconfig; sourceTree = "<group>"; };
 		54CFCCFB62D2038A9C4B3C8F90D790CF /* Pods-SQPHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQPHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5E5B46BDEBA7515BA881F83728044A74 /* SQPHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SQPHelper.modulemap; sourceTree = "<group>"; };
 		608E7E5DDC7B9E815498E8BD231C6375 /* Pods-SQPHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQPHelper_Tests-dummy.m"; sourceTree = "<group>"; };
-		6093F273B8B2622F7D3D810987B9E662 /* SQPHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQPHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6093F273B8B2622F7D3D810987B9E662 /* SQPHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQPHelper.framework; path = SQPHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61055402DC1655773F2A8A1C942E492E /* Pods-SQPHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQPHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		620DC1AE1F637484E77CE33362E01F4B /* Pods-SQPHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQPHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67C066D12B8F858ABC1C718E71129702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6876D243CCD4DBFABD08632A09844E09 /* Pods-SQPHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQPHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93897DBAA6C3881F3028A74E5EBAE8B9 /* SQPHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQPHelper-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2CE46C3869741A20C2D457FD79E4EBF /* SQPHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQPHelper-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AE873AE10784A535AB3792D59619F32 /* ImageFilters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageFilters.m; path = SQPHelper/Classes/ImageFilters.m; sourceTree = "<group>"; };
+		A025E025C0D2B494B91CBE596FAE7124 /* SQPHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQPHelper.xcconfig; sourceTree = "<group>"; };
+		A2208EAFB0BC806E9492F2952AA2A9E9 /* ImageFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageFilters.h; path = SQPHelper/Classes/ImageFilters.h; sourceTree = "<group>"; };
+		A3DDCB08AAA0A4CE347D8C1308CB557D /* SQPHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQPHelper-dummy.m"; sourceTree = "<group>"; };
 		AAEF6BB9A446EB460FAEFBE2CACE3922 /* Pods-SQPHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQPHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B2A09DD1402FCFCD7D5921C1075F36FB /* Pods-SQPHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQPHelper_Example-resources.sh"; sourceTree = "<group>"; };
 		B2B8E0EE10C6066AC4515DEBCF6549B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97C925C27843E84D5214B1CC0FB7D06 /* Pods-SQPHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQPHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C4477AA9DB633EC4D4742C664638B099 /* SQPHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQPHelper-dummy.m"; sourceTree = "<group>"; };
-		C508F8CD6F60163D9AC0F27F70D83468 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SQPHelper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		C9B3C06FB59808C91E7BC0F027178B2B /* Pods-SQPHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQPHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE2B46AE1D62723EF3B974412B429BEA /* Pods_SQPHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQPHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC74A3C2D0357D7EE924E37D342A6784 /* SQPHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQPHelper-prefix.pch"; sourceTree = "<group>"; };
+		CE2B46AE1D62723EF3B974412B429BEA /* Pods_SQPHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SQPHelper_Example.framework; path = "Pods-SQPHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F03DB93E90A2F8C5CEF7237406F16F /* Pods-SQPHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQPHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB67BA731B591F554F9EF94E6FF24A36 /* Pods-SQPHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQPHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED960518510E76F50493AA8A024C0714 /* Pods-SQPHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQPHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F39166D5805E7D1B422D5F0BC56217AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3895798267D5F071760CD26D21AF0F /* SQPHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQPHelper-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +96,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05BF16A0AD3E1E67684F20C02F4FB778 /* SQPHelper */ = {
-			isa = PBXGroup;
-			children = (
-				C508F8CD6F60163D9AC0F27F70D83468 /* ReplaceMe.m */,
-				2448A4FFE12C6623ACBA9B2CE7135E38 /* Support Files */,
-			);
-			name = SQPHelper;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0DEB65E7893399A5C996EB74788EB0BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,24 +106,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2448A4FFE12C6623ACBA9B2CE7135E38 /* Support Files */ = {
+		7D28D94571F48C672CDEF5CFCB1617C3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F39166D5805E7D1B422D5F0BC56217AC /* Info.plist */,
-				462C8758B7A77260242080405210ACF2 /* SQPHelper.modulemap */,
-				540C438EBE8066ED572E7AE85270C08D /* SQPHelper.xcconfig */,
-				C4477AA9DB633EC4D4742C664638B099 /* SQPHelper-dummy.m */,
-				93897DBAA6C3881F3028A74E5EBAE8B9 /* SQPHelper-prefix.pch */,
-				A2CE46C3869741A20C2D457FD79E4EBF /* SQPHelper-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SQPHelper";
-			sourceTree = "<group>";
-		};
-		691F583DE85820B2AC2B7572935E1ABC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				05BF16A0AD3E1E67684F20C02F4FB778 /* SQPHelper */,
+				A4A402F3F94F1AF2DEFE015084009F8B /* SQPHelper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -138,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				691F583DE85820B2AC2B7572935E1ABC /* Development Pods */,
+				7D28D94571F48C672CDEF5CFCB1617C3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				0DEB65E7893399A5C996EB74788EB0BE /* Products */,
 				B5538EC82EFAC3232C419DFA6E1B2B22 /* Targets Support Files */,
@@ -163,6 +143,18 @@
 			path = "Target Support Files/Pods-SQPHelper_Example";
 			sourceTree = "<group>";
 		};
+		A4A402F3F94F1AF2DEFE015084009F8B /* SQPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A2208EAFB0BC806E9492F2952AA2A9E9 /* ImageFilters.h */,
+				9AE873AE10784A535AB3792D59619F32 /* ImageFilters.m */,
+				0C954CF648055915B0212E0EB505EC02 /* SQPTestView.xib */,
+				CF555C06E9362C5EA5CF19601EAE6A04 /* Support Files */,
+			);
+			name = SQPHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		B5538EC82EFAC3232C419DFA6E1B2B22 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +170,20 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF555C06E9362C5EA5CF19601EAE6A04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67C066D12B8F858ABC1C718E71129702 /* Info.plist */,
+				5E5B46BDEBA7515BA881F83728044A74 /* SQPHelper.modulemap */,
+				A025E025C0D2B494B91CBE596FAE7124 /* SQPHelper.xcconfig */,
+				A3DDCB08AAA0A4CE347D8C1308CB557D /* SQPHelper-dummy.m */,
+				CC74A3C2D0357D7EE924E37D342A6784 /* SQPHelper-prefix.pch */,
+				FE3895798267D5F071760CD26D21AF0F /* SQPHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SQPHelper";
 			sourceTree = "<group>";
 		};
 		D0E31D3DA653810F854F7842ECC13443 /* Pods-SQPHelper_Tests */ = {
@@ -225,11 +231,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61786D324900D623EFB48CBF557A3E14 /* Headers */ = {
+		AAC934F10D17BC7F6AE5DFECF0B48489 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BFCCEC52E323A0EC666452D54C32204 /* SQPHelper-umbrella.h in Headers */,
+				DF2BABE5F39255169EF9110D11B6C397 /* ImageFilters.h in Headers */,
+				807522B8B696E518D721770BE0E220D1 /* SQPHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +282,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAC7B7660E8AF576E1D7492BBDA9A1C8 /* Build configuration list for PBXNativeTarget "SQPHelper" */;
 			buildPhases = (
-				238AA64A2EDA8A85E6077EAB67D7B5B8 /* Sources */,
+				4446930011B3E21D42C0BA47236FCE03 /* Sources */,
 				96E92BDAABBA9BEB67D7187389B03B87 /* Frameworks */,
-				61786D324900D623EFB48CBF557A3E14 /* Headers */,
+				AAC934F10D17BC7F6AE5DFECF0B48489 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -317,12 +324,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		238AA64A2EDA8A85E6077EAB67D7B5B8 /* Sources */ = {
+		4446930011B3E21D42C0BA47236FCE03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E932413BF96525D02A1ABC77703A11D /* ReplaceMe.m in Sources */,
-				FE98EAF26C2C59CD0E98856B1A678049 /* SQPHelper-dummy.m in Sources */,
+				98EE6B9E3D44AB771D3433ABBF0B9973 /* ImageFilters.m in Sources */,
+				F7E34E8828E148E2C61701E33DE9C66B /* SQPHelper-dummy.m in Sources */,
+				1E063F920284C21363EAD64DAB977B26 /* SQPTestView.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +364,7 @@
 /* Begin XCBuildConfiguration section */
 		03F18B946A176D66AFDA7FACF1346FA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 540C438EBE8066ED572E7AE85270C08D /* SQPHelper.xcconfig */;
+			baseConfigurationReference = A025E025C0D2B494B91CBE596FAE7124 /* SQPHelper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -599,7 +607,7 @@
 		};
 		7B915765F3A3BEB79B66E1854E104A18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 540C438EBE8066ED572E7AE85270C08D /* SQPHelper.xcconfig */;
+			baseConfigurationReference = A025E025C0D2B494B91CBE596FAE7124 /* SQPHelper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

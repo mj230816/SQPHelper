@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ImageFilters.h"
 
 FOUNDATION_EXPORT double SQPHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char SQPHelperVersionString[];
