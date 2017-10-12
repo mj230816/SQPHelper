@@ -49,7 +49,6 @@
 		6876D243CCD4DBFABD08632A09844E09 /* Pods-SQPHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQPHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93897DBAA6C3881F3028A74E5EBAE8B9 /* SQPHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQPHelper-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D58D4191F8F097B0066E44D /* SQPTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SQPTestView.xib; sourceTree = "<group>"; };
 		A2CE46C3869741A20C2D457FD79E4EBF /* SQPHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQPHelper-umbrella.h"; sourceTree = "<group>"; };
 		AAEF6BB9A446EB460FAEFBE2CACE3922 /* Pods-SQPHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQPHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B2A09DD1402FCFCD7D5921C1075F36FB /* Pods-SQPHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQPHelper_Example-resources.sh"; sourceTree = "<group>"; };
@@ -97,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				C508F8CD6F60163D9AC0F27F70D83468 /* ReplaceMe.m */,
-				9D58D4191F8F097B0066E44D /* SQPTestView.xib */,
 				2448A4FFE12C6623ACBA9B2CE7135E38 /* Support Files */,
 			);
 			name = SQPHelper;
